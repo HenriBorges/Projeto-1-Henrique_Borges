@@ -1,23 +1,15 @@
 package fundamentos;
 
-public class AreaCircunferencia {
-	
+public class temperatura {
 	public static void main(String[] args) {
-		
-		double raio = 3.5;
-		final double PI = 3.14159;
-		
-		double area = PI * raio * raio;
-		
-	
-		System.out.println(area);
-		
-		raio = 10;
-		area = PI * raio * raio;
-		System.out.println(area);
-		
-				
-		
 
+		final double FATOR = 5.0 / 9.0;
+		final double AJUSTE = 32;
+
+		double F = 86;
+		double C = (F - AJUSTE) * FATOR;
+
+		System.out.println(" O resultado é " + C + " ºC.");
 	}
+
 }

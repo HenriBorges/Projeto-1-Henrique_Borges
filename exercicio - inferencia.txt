@@ -3,29 +3,27 @@ package fundamentos;
 import java.util.Scanner;
 
 public class Inferencia {
-	
+
 	public static void main(String[] args) {
-		
-		// Utiliza-se "var" para declarar váriaveis fixar, porém já deve se declarar 
+
+		// Utiliza-se "var" para declarar váriaveis fixar, porém já deve se declarar
 		// na mesma linha exemplo baixo;
-		
+
 		var a = 2.5;
 		var b = "ola mundo";
 		var c = 2;
 		var d = "F";
-		
+
 		System.out.println(a);
 		System.out.println(b);
 		System.out.println(c);
 		System.out.println(d);
-		
+
 		// nota-se que as variáveis já foram declarada e ela reconheceu os tipos
 		// sendo eles - double - char 50 - int - char
-		
+
 		// não pode var a; depois a = 2.5;
-		
-		
-		
+
 	}
 
 }
