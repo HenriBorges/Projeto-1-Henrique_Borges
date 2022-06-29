@@ -1,0 +1,24 @@
+package fundamentos;
+
+public class ConversoesTiposPrimitivosNumericos {
+	public static void main(String[] args) {
+
+		// conversões implícita e explícita(CAST)
+
+		double a = 1; // implícita
+		System.out.println(a);
+
+		float b = 1.0F; // Se colocar o F já converte ex; 1.0F;
+		System.out.println(b);
+
+		int c = 4;
+		byte d = (byte) c; // byte só vai até 128
+		System.out.println(d);
+
+		double e = 1.999999;
+		int f = (int) e; // explícita (CAST)
+		System.out.println(f);
+
+	}
+
+}
